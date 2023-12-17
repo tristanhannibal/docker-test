@@ -6,7 +6,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual("foo".upper(), "FOO")
 
     def test_isupper(self):
-        self.assertTrue("FOO".isupper())
+        self.assertTrue("FOOd".isupper())
         self.assertFalse("Foo".isupper())
 
     def test_split(self):
